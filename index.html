@@ -1,385 +1,354 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<!DOCTYPE html>
+<html lang="ru-ru" dir="ltr">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link href="/rn.css" type="text/css" rel="stylesheet">
+	<base href="http://ruda-navy.ru/contakts.html" />
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<meta name="keywords" content="Руда Нави, этно, культура, музыка, Концерты, тренинги, варган, бубен, диджериду, этнические инструменты, этническая, современная, электронная, группа" />
+	<meta name="rights" content="ТЛ Руда Нави 2007-2018" />
+	<meta name="author" content="Вессемир Воронцов" />
+	<meta name="description" content="Официальный сайт творческой лаборатории Руда Нави - Новости, афиша событий, музыка проекта, история и контакты, музыканты и их инструменты. Вся официальная информация о нас и нашей деятельности." />
+	<meta name="generator" content="Joomla! - Open Source Content Management" />
+	<title>Контакты</title>
+	<link href="/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+	<link href="http://ruda-navy.ru/templates/ruda-navy/css/template.css" rel="stylesheet" type="text/css" />
+	<link href="/media/jui/css/chosen.css" rel="stylesheet" type="text/css" />
+	<link href="/media/com_finder/css/finder.css" rel="stylesheet" type="text/css" />
+	<script src="/media/jui/js/jquery.min.js" type="text/javascript"></script>
+	<script src="/media/jui/js/jquery-noconflict.js" type="text/javascript"></script>
+	<script src="/media/jui/js/jquery-migrate.min.js" type="text/javascript"></script>
+	<script src="/media/system/js/caption.js" type="text/javascript"></script>
+	<script src="/media/jui/js/bootstrap.min.js" type="text/javascript"></script>
+	<script src="/media/jui/js/chosen.jquery.min.js" type="text/javascript"></script>
+	<script src="/media/jui/js/jquery.autocomplete.min.js" type="text/javascript"></script>
+	<script type="text/javascript">
+jQuery(window).on('load',  function() {
+				new JCaption('img.caption');
+			});
+window.setInterval(function(){var r;try{r=window.XMLHttpRequest?new XMLHttpRequest():new ActiveXObject("Microsoft.XMLHTTP")}catch(e){}if(r){r.open("GET","/index.php?option=com_ajax&format=json",true);r.send(null)}},840000);
+jQuery(function($){ $(".hasTooltip").tooltip({"html": true,"container": "body"}); });
+		jQuery(document).ready(function (){
+			jQuery('.advancedSelect').chosen({"disable_search_threshold":10,"search_contains":true,"allow_single_deselect":true,"placeholder_text_multiple":"\u0412\u0432\u0435\u0434\u0438\u0442\u0435 \u0438\u043b\u0438 \u0432\u044b\u0431\u0435\u0440\u0438\u0442\u0435 \u043d\u0435\u0441\u043a\u043e\u043b\u044c\u043a\u043e \u0432\u0430\u0440\u0438\u0430\u043d\u0442\u043e\u0432","placeholder_text_single":"\u0412\u044b\u0431\u0435\u0440\u0438\u0442\u0435 \u0437\u043d\u0430\u0447\u0435\u043d\u0438\u0435","no_results_text":"\u0420\u0435\u0437\u0443\u043b\u044c\u0442\u0430\u0442\u044b \u043d\u0435 \u0441\u043e\u0432\u043f\u0430\u0434\u0430\u044e\u0442"});
+		});
+	
+jQuery(document).ready(function() {
+	var value, searchword = jQuery('#mod-finder-searchword88');
 
-<head><title>Библиотека Григория Климова</title>
-<meta http-equiv="Content-Type" content="text/html; charset=windows-1251">
+		// Get the current value.
+		value = searchword.val();
 
-<meta name="keywords" content="Григорий Климов, Gregory Klimov, дегенерация, вырождение, гомосексуальность, психические заболевания, высшая социология, извращения, голубые, лесбиянки, тайные общества, политики, сексуальные проблемы, семейные ссоры, маньяк, паразитизм, комплекс власти">
-<meta name="description" content="Шокирующая правда о темных сторонах жизни сильных мира сего и причинах неудачных браков. Не читали Григория Климова? В чем-то очень важном вы слепы! Это знание не менее полезно, чем знание таблицы умножения."></head>
+		// If the current value equals the default value, clear it.
+		searchword.on('focus', function ()
+		{
+			var el = jQuery(this);
 
-<body bgcolor="#FFFcdd" link="#cc9966" text="#000000" vlink="#cc9966" alink="#0000aa" style="font-family: arial, sans-serif">
+			if (el.val() === 'Текст для поиска...')
+			{
+				el.val('');
+			}
+		});
 
-<script language="JScript" type="text/javascript"><!--
-ua=navigator.userAgent;
-v=navigator.appVersion.substring(0,1);
-if ((ua.lastIndexOf("MSIE")!=-1) && (v!='1') && (v!='2') && (v!='3')) 
-{document.body.onmouseover=makeCool;
-document.body.onmouseout=makeNormal;}
-function makeCool() {src = event.toElement;
-if (src.tagName == "A") {src.oldcol = src.style.color;
-src.style.color = "#0011ff";}}
-function makeNormal() {src=event.fromElement; 
-if (src.tagName == "A") {src.style.color = src.oldcol;}}
-//--></script>
+		// If the current value is empty, set the previous value.
+		searchword.on('blur', function ()
+		{
+			var el = jQuery(this);
 
+			if (!el.val())
+			{
+				el.val(value);
+			}
+		});
 
-<font size="3" align="left">
+		jQuery('#mod-finder-searchform88').on('submit', function (e)
+		{
+			e.stopPropagation();
+			var advanced = jQuery('#mod-finder-advanced88');
 
-<img src="Header.gif" width="550" height="83" alt="Библиотека Григория Климова">
+			// Disable select boxes with no value selected.
+			if (advanced.length)
+			{
+				advanced.find('select').each(function (index, el)
+				{
+					var el = jQuery(el);
 
-<h4><a href="Index-e.htm">Gregory Klimov's Library in English (cut version)</a><br>
-<a href="http://translate.google.com/translate?u=g-klimov.info&hl=en&ie=UTF-8&sl=ru&tl=en">Gregory Klimov's Library in English (Google's translation)</a>, <a href="trans.htm">other languages</a></h4>
+					if (!el.val())
+					{
+						el.attr('disabled', 'disabled');
+					}
+				});
+			}
+		});
+	var suggest = jQuery('#mod-finder-searchword88').autocomplete({
+		serviceUrl: '/component/finder/?task=suggestions.suggest&amp;format=json&amp;tmpl=component',
+		paramName: 'q',
+		minChars: 1,
+		maxHeight: 400,
+		width: 300,
+		zIndex: 9999,
+		deferRequestBy: 500
+	});});
+	</script>
 
-<hr noshade color="#581808">
+<link rel="stylesheet" href="/./templates/css/icomoon2.css" type="text/css" />
+<!--[if lt IE 9]>
+	<script src="/media/jui/js/html5.js"></script>
+<![endif]-->
+<!--[if lte IE 7]>
+	<script src="/templates/ruda-navy/js/lte-ie7.js"></script>
+<![endif]-->
+</head>
+<body leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+<div class="top" align="center"><div class="menu"><div>
+		<div id="topmenuwrap">
+			<div id="topmenu" class="navbar navbar-inverse">
+				<div class="navbar-inner">
+					<div class="container">
+						<span class="brand hidden-tablet hidden-desktop">Меню >></span>
+						<a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+							<span class="icon-downarrow"></span>
+						</a>
+						<div class="nav-collapse collapse">
+							<ul class="nav menu">
+<li class="item-101 active"><a href="/home.html" >Главная</a></li><li class="item-110"><a href="/new.html" >Новости</a></li><li class="item-102"><a href="/history.html" >История</a></li><li class="item-103"><a href="/albums.html" >Музыка</a></li><li class="item-104"><a href="/artist.html" >Музыканты</a></li><li class="item-106"><a href="/work.html" >Деятельность</a></li><li class="item-107"><a href="/photos.html" >Фото</a></li><li class="item-108"><a href="/video.html" >Видео</a></li><li class="item-109 current"><a href="/contakts.html" >Контакты</a></li><li class="item-111 default"><a href="/" >&gt;&gt;</a></li></ul>
 
-<b><font color="#B0000e">Дорогой посетитель!</font> Для авторов этого сайта книги Григория Климова явились настоящим открытием, шоком, подтолкнувшим к созданию "Библиотеки Григория Климова". Конфликты, исторические и политические катаклизмы, семейные драмы... В основе книг Григория Климова описание генетического "старения" или дегенерации... Мы считаем знание произведений Григория Климова не менее важным, чем умение писать. Без преувеличения! Чтобы получить общее представление о книгах, читайте
-<a href="Essence.htm">интервью с Григорием Климовым</a>, его <a href="Klimov.htm">биографию</a> и <a href="Letters.htm">отзывы читателей</a>.</b><br>
+						</div>
+					</div>
+				</div>
+			</div> 
+		</div>
+  </div></div></div>
+<div class="body" align="center"><div class="header"><img src="/./images/logo.png" vspace="30px" alt="Руда Нави"></div>
+<div class="bgcontent">
+<div class="content">
+<div id="headerwrap">
+	<div id="header" class="container">      
+		<div class="row">
+			<div id="headerright" class="span7">
+				<div id="hsocial" class="row">
+										<div id="soci" class="span4 pull-right">
+																														</div>
+				</div>	
+			</div>
+		</div>
+	</div>
+<div id="allwrap">
+	<div id="wrap" class="container">
 
+					<div id="pathway">
+				
+<div class="breadcrumb">
+</div>
 
-<hr noshade color="#581808"><br>
+			</div>
+		 
+		<div id="cbody" class="row-fluid">
+						<div id="content60" class="span9">    
+				<div id="content">
+				<div id="system-message-container">
+	</div>
 
- <font color="#581808"><h2>Форум</h2></font>
-
-<b><a href="http://klimov.forum24.ru/" target="_blank" color="#581808">Обсуждение творчества Григория Климова</a></b><br>
-<a href="http://klimov.forum24.ru/?0-0" target="_blank" color="#581808">Вопросы функционирования сайта «Библиотека Г.Климова»</a><br>
-<a href="http://klimov.forum24.ru/?0-3" target="_blank" color="#581808">Ваши впечатления от прочитанных книг</a><br>
-
-
-<hr noshade color="#581808"><br>
- <font color="#581808"><h2>Новости, обновления</h2></font>
-
-<b>Новости сайта в Твиттере: <a href="http://twitter.com/gregory_klimov"> twitter.com/gregory_klimov</a></b><br>
-
-
-<font color="#aa0000"><b>01.04.13</b></font>
-Добавлена книга <a href="klimov-psm-lit/index.html">«Протоколы советских мудрецов»</a> на литовском языке<br>
-
-<font color="#aa0000"><b>10.08.12</b></font>
-В разделе <a href="av/index.html">«Аудио-видео материалы»</a> выложены 16 лекций «Красная Каббала»<br>
-
-<font color="#aa0000"><b>22.01.12</b></font>
-В разделе <a href="av/index.html">«Аудио-видео материалы»</a> выложены звуковые дорожки 14 лекций «Божий народ»<br>
-
-<font color="#aa0000"><b>02.01.12</b></font>
-В разделе <a href="av/index.html">«Аудио-видео материалы»</a> выложены 14 лекций «Божий народ»<br>
-
-<b>02.10.11</b>
-Добавлена последняя книга Григория Петровича – <a href="klimov-ot/index.html">«Откровение»</a><br>
-
-<b>24.08.11</b>
- Раздел <a href="biblio/index.html">«Библиография»</a> пополнен книгой Роберта Хаэра «Пугающий мир психопатов»<br>
-
-<b>17.02.11</b>
- Раздел <a href="biblio/index.html">«Библиография»</a> пополнен книгами и аудиокнигами Льва Николаевича Гумилёва<br>
-
-<b>18.03.09</b>
- Новая <a href="Publish/Degeneracy2.htm">статья</a>. Сергиенко Виктор. Генетическое вырождение<br>
+					<div class="item-page">
+	
+					<div class="pull-right">
+						<ul class="actions">
+								<li class="print-icon"> <a href="/contakts.html?tmpl=component&amp;print=1&amp;page=" title="Распечатать материал < Контакты >" onclick="window.open(this.href,'win2','status=no,toolbar=no,scrollbars=yes,titlebar=no,menubar=no,resizable=yes,width=640,height=480,directories=no,location=no'); return false;" rel="nofollow"><span class="icon-print"></span>Печать</a> </li>
+												<li class="email-icon"> <a href="/component/mailto/?tmpl=component&amp;template=ruda-navy&amp;link=f69ae676dbcf06ba4227ded9c4e02d3f23f719a1" title="Отправить ссылку другу" onclick="window.open(this.href,'win2','width=400,height=350,menubar=yes,resizable=yes'); return false;" rel="nofollow"><span class="icon-envelope"></span>E-mail</a> </li>
+											</ul>
+		</div>
+				
+		<div class="page-header">
+		<h2>
+															<a href="/contakts.html"> Контакты</a>
+									</h2>
+	</div>
+	
+	
+			
+			
+		
+								<p>У Вас возникли вопросы о музыке или музыкальных инструментах? Или Вы хотите сделать нам предложение? Мы на связи!</p>
+<p>Основная база: г. Королев PsyRec <img src="/images/PsyRec.jpg" alt="" /> ул. Советская 20</p>
+<p><br /><a href="/2-uncategorised/19-rayder-list-i.html">Цены и условия сотрудничества</a> </p>
+<p> </p>
+<h3>Вессемир Воронцов - Арт директор</h3>
+<p>По вопросам авторских прав, музыкальной деятельности, преподавания музыки (варганы, диджериду, бубны), написания музыки под заказ - Вы можете обратиться ко мне.<br /> <br /><br /> Основной телефонный номер:</p>
+<p><br /> <span class="number">+7 (915) 014 39 48</span></p>
+<p><a href="https://vk.com/ruda_navy_vetrov">ВКонтакт</a></p>
+<h3>Александр Александров - директор</h3>
+<p>По всем вопросам, связанным с организацией концертов, выступлений, мастер-классов и иных мероприятий с нашим участием, Вы всегда можете обратиться к Александру. Она наш главный организатор и менеджер.<br /> <br /><br /> Основной телефонный номер:</p>
+<p><br /> <span class="number">+7 495 518 76 14</span></p>
+<p> </p>
+<p><a href="https://vk.com/id248845671">ВКонтакт</a></p>
+<p> </p>
+<h3>Илья (Койот) Шишков - мастер флейт</h3>
+<p>По вопросам музыкальной деятельности, преподавания музыки (флейты) - Вы можете обратиться ко мне.</p>
+<p><br /><br /> <span class="number">+7 (916) 955 30 81</span></p>
+<p><br /> <a href="https://vk.com/donkoyot">ВКонтакт</a></p> 
+	
+						 </div>
  
-<b>26.09.08</b>
- Сегодня исполняется 90 лет со дня рождения Григория Петровича. Приводим <a href="Letters-post.htm">отзывы читателей</a> на известие о смерти писателя.<br>
-
-<b>10.12.07</b>
- <b>Григорий Петрович Климов умер</b><br>
- <!-- <a href="Publish/10-12-07.htm">статья-некролог</a>.<br> //-->
-
-
-
-
-<!-- ####################################### //-->
-
-<hr noshade color="#581808"><br>
-<font color="#581808"><h2>Книги Григория Климова</h2></font>
-
-<h3>
-
-<a href="Klimov.htm"><img src="Ic-html.gif" border="0" width="52" height="17" 
-alt="Биография Григория Климова" title="Биография Григория Климова. HTML"></a>
-
-<a href="FTP/Klim-pdf.rar"><img src="Ic-pdf.gif" border="0" width="38" height="17" 
-alt="Биография Григория Климова" title="Биография Григория Климова. PDF"></a>
-
- Биография Григория Климова<br>
-
-
-<a href="klimov-pp/index.html"><img src="Ic-html.gif" border="0" width="52" height="17"
-alt="Григорий Климов. Песнь победителя" title="Григорий Климов. Песнь победителя. HTML"></a>
-
-<a href="FTP/Wing-pdf.rar"><img src="Ic-pdf.gif" border="0" width="38" height="17" 
-alt="Григорий Климов. Песнь победителя" title="Григорий Климов. Песнь победителя. PDF"></a>
-
-<a href="FTP/Wing-doc.rar"><img src="Ic-doc.gif" border="0" width="40" height="17"
-alt="Григорий Климов. Песнь победителя" title="Григорий Климов. Песнь победителя. DOC"></a>
-
- «Песнь победителя»<br>
-
-
-<a href="klimov-kms/index.html"><img src="Ic-html.gif" border="0" width="52" height="17"
-alt="Григорий Климов. Князь мира сего" title="Григорий Климов. Князь мира сего. HTML"></a>
-
-<a href="FTP/Knaz-pdf.rar"><img src="Ic-pdf.gif" border="0" width="38" height="17" 
-alt="Григорий Климов. Князь мира сего" title="Григорий Климов. Князь мира сего. PDF"></a>
-
-<a href="FTP/Knaz-doc.rar"><img src="Ic-doc.gif" border="0" width="40" height="17"
-alt="Григорий Климов. Князь мира сего" title="Григорий Климов. Князь мира сего. DOC"></a>
-
-<a href="klimov-kms-128/index.html"><img src="Ic-mp3.gif" border="0" width="49" height="17"
-alt="Григорий Климов. Князь мира сего" title="Григорий Климов. Князь мира сего. MP3"></a>
-
- «Князь мира сего»<br>
-
-
-<a href="klimov-d69/index.html"><img src="Ic-html.gif" border="0" width="52" height="17"
-alt="Григорий Климов. Дело 69" title="Григорий Климов. Дело 69. HTML"></a>
-
- «Дело 69»<br>
-
-
-<a href="klimov-iml/index.html"><img src="Ic-html.gif" border="0" width="52" height="17"
-alt="Григорий Климов. Имя мое Легион" title="Григорий Климов. Имя мое Легион. HTML"></a>
-
-<a href="FTP/Leg-pdf.rar"><img src="Ic-pdf.gif" border="0" width="38" height="17" 
-alt="Григорий Климов. Имя мое Легион" title="Григорий Климов. Имя мое Легион. PDF"></a>
-
-<a href="FTP/Leg-doc.rar"><img src="Ic-doc.gif" border="0" width="40" height="17"
-alt="Григорий Климов. Имя мое Легион" title="Григорий Климов. Имя мое Легион. DOC"></a>
-
- «Имя мое Легион»<br>
-
-
-<a href="klimov-psm/index.html"><img src="Ic-html.gif" border="0" width="52" height="17"
-alt="Григорий Климов. Протоколы советских мудрецов" title="Григорий Климов. Протоколы советских мудрецов. HTML"></a>
-
-<a href="FTP/Prtk-pdf.rar"><img src="Ic-pdf.gif" border="0" width="38" height="17" 
-alt="Григорий Климов. Протоколы советских мудрецов" title="Григорий Климов. Протоколы советских мудрецов. PDF"></a>
-
-<a href="FTP/Prtk-doc.rar"><img src="Ic-doc.gif" border="0" width="40" height="17"
-alt="Григорий Климов. Протоколы советских мудрецов" title="Григорий Климов. Протоколы советских мудрецов. DOC"></a>
-
- «Протоколы советских мудрецов»<br>
-
-
-<a href="klimov-kk/index.html"><img src="Ic-html.gif" border="0" width="52" height="17"
-alt="Григорий Климов. Красная Каббала" title="Григорий Климов. Красная Каббала. HTML"></a>
-
- «Красная Каббала»<br>
-
-
-<a href="klimov-bn/index.html"><img src="Ic-html.gif" border="0" width="52" height="17"
-alt="Григорий Климов. Божий народ" title="Григорий Климов. Божий народ. HTML"></a>
-
-<a href="FTP/Bnar-pdf.rar"><img src="Ic-pdf.gif" border="0" width="38" height="17" 
-alt="Григорий Климов. Божий народ" title="Григорий Климов. Божий народ. PDF"></a>
-
-<a href="FTP/Bnar-doc.rar"><img src="Ic-doc.gif" border="0" width="40" height="17"
-alt="Григорий Климов. Божий народ" title="Григорий Климов. Божий народ. DOC"></a>
-
- «Божий народ»<br>
-
-
-<a href="klimov-bn/index.html"><img src="Ic-html.gif" border="0" width="52" height="17"
-alt="Григорий Климов. Божий народ" title="Григорий Климов. Божий народ. HTML"></a>
-
-<a href="FTP/Bn-p-pdf.rar"><img src="Ic-pdf.gif" border="0" width="38" height="17" 
-alt="Григорий Климов. Божий народ" title="Григорий Климов. Божий народ. Приложения. PDF"></a>
-
-<a href="FTP/Bn-p-doc.rar"><img src="Ic-doc.gif" border="0" width="40" height="17"
-alt="Григорий Климов. Божий народ" title="Григорий Климов. Божий народ. Приложения. DOC"></a>
-
- «Божий народ». Приложения к книге<br>
-
-
-<a href="klimov-ot/index.html"><img src="Ic-html.gif" border="0" width="52" height="17"
-alt="Григорий Климов. Откровение" title="Григорий Климов. Откровение. HTML"></a>
-
- «Откровение»<br>
-
-</h3>
-
-
-<p>Первая книга Григория Климова – <font color="#aa0000"><b>«Песнь победителя»</b></font> (также изд. как «Крылья холопа», «Берлинский Кремль», «Машина террора») – автобиографический роман. Одна из лучших и объективных книг на тему судеб советских людей в 30-40-е годы.
-
-Остальные книги Григория Климова посвящены теме дегенерации.
-
-<font color="#aa0000"><b>«Князь мира сего»</b></font> – связь дегенерации с историческими событиями.
-
-<font color="#aa0000"><b>«Имя мое легион»</b></font> – взгляд на дегенерацию, так сказать, на бытовом уровне.
-
-<font color="#aa0000"><b>«Протоколы советских мудрецов»</b></font>, <font color="#aa0000"><b>«Красная Каббала»</b></font>, <font color="#aa0000"><b>«Божий народ»</b></font> – дегенерация, история, "еврейский вопрос". <font color="#aa0000"><b>«Откровение»</b></font> (также изд. как «Ключи познания» и «Семейный альбом» – последняя книга писателя, сборник рассказов преимущественно автобиографического характера.
-<br>
-
-<noindex>
-<p><font size="2"><b><font color="#aa0000">ВНИМАНИЕ!</font></b> Уважаемые посетители, некоторые главы книг Григория Климова проходили авторские правки. На нашем сайте находятся последние их версии – Григорий Петрович присылал отредактированный текст прямо на наш адрес. В связи с этим мы убедительно просим издателей и читателей копировать <b><font color="#0000aa">HTML</font></b> версию текста именно с нашего сайта. Со временем мы синхронизируем текст во всех представленных форматах. Если у вас возникли вопросы или проблемы технического характера, за разъяснениями Вы можете заглянуть <b><a href="Stuff.htm">сюда</a></b></font>
-</noindex>
-
-<!-- ###################################### //-->
-
-<hr noshade color="#581808"><br>
-<font color="#581808"><h2>Переводы книг Григория Климова</h2></font>
-
-<h3>
-
-<a href="klimov-pp-g/index.html"><img src="Ic-html.gif" border="0" width="52" height="17" 
-alt="Григорий Климов. Песнь победителя" title="Григорий Климов. Песнь победителя (немецкий)."></a>
- «Песнь победителя» <font size="2">(немецкий)</font><br>
-
-
-<a href="klimov-pp-e/index.html"><img src="Ic-html.gif" border="0" width="52" height="17"
-alt="Григорий Климов. Песнь победителя" title="Григорий Климов. Песнь победителя (немецкий)."></a>
-<a href="FTP/Wing-e-doc.rar"><img src="Ic-doc.gif" border="0" width="40" height="17"
-alt="Григорий Климов. Песнь победителя" title="Григорий Климов. Песнь победителя (немецкий) DOC."></a>
- «Песнь победителя» <font size="2">(английский)</font><br>
-
-
-<a href="klimov-pp-f/index.html"><img src="Ic-html.gif" border="0" width="52" height="17"
-alt="Григорий Климов. Песнь победителя" title="Григорий Климов. Песнь победителя (французский)."></a>
-<a href="FTP/Wing-f-doc.rar"><img src="Ic-doc.gif" border="0" width="40" height="17"
-alt="Григорий Климов. Песнь победителя" title="Григорий Климов. Песнь победителя (французский) DOC."></a>
- «Песнь победителя» <font size="2">(французский)</font><br>
-
-
-<a href="klimov-psm-j/index.html"><img src="Ic-html.gif" border="0" width="52" height="17"
-alt="Григорий Климов. Протоколы советских мудрецов" title="Григорий Климов. Протоколы советских мудрецов (японский)."></a>
-<a href="FTP/Prtk-j-pdf.rar"><img src="Ic-pdf.gif" border="0" width="38" height="17" 
-alt="Григорий Климов. Протоколы советских мудрецов" title="Григорий Климов. Протоколы советских мудрецов (японский) PDF."></a>
- «Протоколы советских мудрецов» <font size="2">(японский)</font><br>
- 
-<a href="klimov-psm-lit/index.html"><img src="Ic-html.gif" border="0" width="52" height="17"
-alt="Григорий Климов. Протоколы советских мудрецов" title="Григорий Климов. Протоколы советских мудрецов (литовский)."></a>
- «Протоколы советских мудрецов» <font size="2">(литовский)</font><br>
-
-
-<a href="FTP/Knaz-a-doc.rar"><img src="Ic-doc.gif" border="0" width="40" height="17"
-alt="Григорий Климов. Князь мира сего" title="Григорий Климов. Князь мира сего (арабский)."></a>
- «Князь мира сего» <font size="2">(арабский)</font><br>
-
-
-<a href="FTP/Bn-p-aruh-a-doc.rar"><img src="Ic-doc.gif" border="0" width="40" height="17"
-alt="100 законов Шулхан Аруха" title="100 законов Шулхан Аруха. DOC"></a>
- «Приложение. 100 законов Шулхан Аруха» <font size="2">(арабский)</font><br>
-
-</h4>
-
-
-<!-- ############################################# //-->
-
-<hr noshade color="#581808"><br>
-<font color="#581808"><h2>Дополнительные материалы</h2></font>
-
-<b><a href="av/index.html">Видеофрагменты</a><br>
-<a href="biblio/index.html">Библиография</a> – дополнительная литература о дегенерации<br>
-<a href="Photos/index.html">Фотоальбом</a>, и
-<a href="Molitva.htm">любимая молитва Климова</a><br>
-<a href="klimov-kk/Kk-p06.htm">Руководство по созданию православных братств</a><br>
-<a href="Second/index.html">Дегенерация в творчестве</a><br>
-<a href="Letters.htm">Письма читателей</a><br>
-<a href="Publish/index.html">Находки читателей – публицистика</a><br>
-<a href="Cytata.htm">Находки читателей – цитаты из книг, затрагивающие Высшую Социологию</a><br>
-<a href="Gallery/index.html">Находки читателей – картинная галерея «Нечисть»</a><br>
-<a href="Gallery2/index.html">Находки читателей – картинная галерея «Нечисть-II»</a><br>
-
-
-<hr noshade color="#581808"><br>
-<font color="#581808"><h2>Книги Григория Климова в Сети</h2></font>
-
-<a href="http://g-klimov.info/" target="_blank">«Библиотека Григория Климова» (этот сервер)</a><br>
-<a href="http://klimov.bravehost.com/" target="_blank">Клуб любителей Высшей Социологии (Москва)</a><br>
-<a href="http://lib.ru/PROZA/KLIMOV_GP/" target="_blank">Библиотека Мошкова</a><br>
-<a href="http://www.duel.ru/publish/klimov/" target="_blank">Библиотека газеты «Дуэль»</a><br>
-<b><a href="Order.htm">Возможности приобретения и заказа</a></b> книг в разных городах и сети Интернет.
-
-
-<hr noshade color="#581808"><br>
-<font color="#581808"><h2>Интересные ссылки</h2></font>
-
-<a href="http://www.ariru.info" target="_blank">«Агентство Русской Информации»</a> – отличные аналитические статьи!<br>
-<a href="http://www.rus-sky.com/order/" target="_blank">«Неизвестные страницы Русской истории»</a> – много правильных и редких книг<br>
-<a href="http://www.1-sovetnik.com/" target="_blank">Библиотека «Советник. Путеводитель по хорошим книгам»</a> – отличная библиотека<br>
-<a href="http://www.chat.ru/~barron_reeck/" target="_blank">РОССИЯ: Вчера Сегодня Завтра</a><br>
-<a href="http://www.russia-talk.com/" target="_blank">«Мысли о России»</a><br>
-<a href="http://www.chat.ru/~rusvladimir/" target="_blank">«Азбука русского патриотизма»</a><br>
-<a href="http://www.patriotica.ru/" target="_blank">«Библиотека думающего о России»</a><br>
-<a href="http://www.radioislam.org/russ/" target="_blank">Радио Ислам</a><br><br>
-<a href="Directory.htm" target="_blank">Банерообмен</a><br>
-
-
-<hr noshade color="#581808"><br>
-<center>  
-
-<!-- ============ BANNER AREA============ //-->
-
-<!-- GOOGLE SEARCH //-->
-<TABLE border="0" cellpadding="0" cellspacing="0" width="540"><tr><td>
-<style type="text/css">@import url(http://www.google.com/cse/api/branding.css);</style>
-<div class="cse-branding-right" style="background-color:#FFFcdd;color:#000000">
-<div class="cse-branding-form">
-<form action="http://www.google.ru/cse" id="cse-search-box" target="_blank">
-<div>
-<input type="hidden" name="cx" value="partner-pub-5358085321672465:ry3bk9-ys4x" />
-<input type="hidden" name="ie" value="windows-1251" />
-<input type="text" name="q" size="54" />
-<input type="submit" name="sa" value="&#x041f;&#x043e;&#x0438;&#x0441;&#x043a;" />
-</div></form></div>
-<div class="cse-branding-logo">
-<img src="http://www.google.com/images/poweredby_transparent/poweredby_FFFFFF.gif" alt="Google" /></div>
-<div class="cse-branding-text">&#1055;&#1086;&#1080;&#1089;&#1082; &#1087;&#1086;  &#1089;&#1072;&#1081;&#1090;&#1091;</div></div>
-</td></tr></TABLE>
-
-<!-- ========== advert.START============ //-->
-<center><br>
-<!-- Google-3color //-->
-<script type="text/javascript"><!--
-google_ad_client = "pub-5358085321672465";
-/* 728x90-w-3color */
-google_ad_slot = "6165686315";
-google_ad_width = 728;
-google_ad_height = 90;
-//-->
-</script>
-<script type="text/javascript"
-src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
-</script>
-</center><br>
-<!-- ========== advert.END============ //-->
-
-<!--LiveInternet counter--><script type="text/javascript"><!--
-document.write("<a href='http://www.liveinternet.ru/click' "+
-"target=_blank><img src='http://counter.yadro.ru/hit?t17.6;r"+
-escape(document.referrer)+((typeof(screen)=="undefined")?"":
-";s"+screen.width+"*"+screen.height+"*"+(screen.colorDepth?
-screen.colorDepth:screen.pixelDepth))+";u"+escape(document.URL)+
-";"+Math.random()+
-"' alt='' title='LiveInternet: показано число просмотров за 24"+
-" часа, посетителей за 24 часа и за сегодня' "+
-"border=0 width=88 height=31><\/a>")//--></script><!--/LiveInternet-->
-
-<!-- MyCounter v.2.0 -->
-<script type="text/javascript"><!--
-my_id = 42994;
-my_width = 88;
-my_height = 41;
-my_alt = "MyCounter - Ваш счётчик";
-//--></script>
-<script type="text/javascript"
-  src="http://scripts.mycounter.ua/counter2.0.js">
-</script><noscript>
-<a target="_blank" href="http://mycounter.ua/"><img
-src="http://get.mycounter.ua/counter.php?id=42994"
-title="MyCounter - Ваш счётчик"
-alt="MyCounter - Ваш счётчик"
-width="88" height="41" border="0" /></a></noscript>
-<!--/ MyCounter -->
-
-</center> 
-
-</font></body>
-
-<script type="text/javascript">
-var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
-document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
-</script>
-<script type="text/javascript">
-var pageTracker = _gat._getTracker("UA-5959841-1");
-pageTracker._trackPageview();
-</script>
-
-</html><!--    //-->
+				</div> 
+			</div>
+							<div id="sidebar-2" class="span3">     
+							<div class="moduletable">
+							<h3>Авторизация</h3>
+						<form action="/contakts.html" method="post" id="login-form" class="form-inline">
+		<div class="userdata">
+		<div id="form-login-username" class="control-group">
+			<div class="controls">
+									<div class="input-prepend input-append">
+						<span class="add-on">
+							<span class="icon-user tip" title="Логин"></span>
+							<label for="modlgn-username" class="element-invisible">Логин</label>
+						</span>
+						<input id="modlgn-username" type="text" name="username" class="input-small" tabindex="0" size="18" placeholder="Логин" />
+					</div>
+							</div>
+		</div>
+		<div id="form-login-password" class="control-group">
+			<div class="controls">
+									<div class="input-prepend input-append">
+						<span class="add-on">
+							<span class="icon-lock tip" title="Пароль">
+							</span>
+								<label for="modlgn-passwd" class="element-invisible">Пароль							</label>
+						</span>
+						<input id="modlgn-passwd" type="password" name="password" class="input-small" tabindex="0" size="18" placeholder="Пароль" />
+				</div>
+				
+			</div>
+		</div>
+				<div id="form-login-remember" class="control-group checkbox">
+			<label for="modlgn-remember" class="control-label">Запомнить меня</label> <input id="modlgn-remember" type="checkbox" name="remember" class="inputbox" value="yes"/>
+		</div>
+				<div id="form-login-submit" class="control-group">
+			<div class="controls">
+				<button type="submit" tabindex="0" name="Submit" class="btn">Войти</button>
+			</div>
+		</div>
+					<ul class="unstyled">
+				<li>
+					<a href="/component/users/?view=registration">
+					Регистрация </a>
+				</li>
+				<li>
+					<a href="/component/users/?view=remind">
+					  Забыли логин?</a>
+				</li>
+				<li>
+					<a href="/component/users/?view=reset">Забыли пароль?</a>
+				</li>
+
+			</ul>
+				<input type="hidden" name="option" value="com_users" />
+		<input type="hidden" name="task" value="user.login" />
+		<input type="hidden" name="return" value="aHR0cDovL3J1ZGEtbmF2eS5ydS9jb250YWt0cy5odG1s" />
+		<input type="hidden" name="4e2ae1213f0229e86e7a085283345c6f" value="1" />	</div>
+	</form>
+		</div>
+			<div class="moduletable">
+							<h3>Поиск</h3>
+						
+<form id="mod-finder-searchform88" action="/component/finder/search.html" method="get" class="form-search">
+	<div class="finder">
+		<label for="mod-finder-searchword88" class="finder">Искать</label><input type="text" name="q" id="mod-finder-searchword88" class="search-query input-medium" size="25" value="" placeholder="Текст для поиска..."/>
+						<input type="hidden" name="Itemid" value="109" />	</div>
+</form>
+		</div>
+			<div class="moduletable">
+							<h3>Последний релиз</h3>
+						
+
+<div class="custom"  >
+	<p><a href="/albums/14-album-inner-forest.html"> <img class="Album" src="/images/Album/RN_A013s.jpg" alt="Руда Нави - Внутренний Лес" width="200px" height="200px" /></a></p></div>
+		</div>
+	     
+				</div>
+					</div>
+<!--end of wrap-->
+	</div>
+<!--end of allwrap-->
+</div>    
+</div>
+</div></div>
+<div class="footer">
+  <div id="footerwrap"> 
+	<div id="footer" class="container">  
+			<table height="100%" align="left" border=0px;><tr><td align=left valign=top>
+<ul>
+  <li><a href="/new.html" ><b>Новости</b></a></li>
+  <li><a href="/new/10-affiche.html" >Концерты и мероприятия</a></li>
+  <li><a href="/new/11-release.html" >Релизы альбомов</a></li>
+  </ul>
+  </td>
+<td align=left valign=top>
+<ul>
+  <li><a href="/history.html" ><b>История</b></a></li>
+  <li><a href="/art-blog/15-spaces.html" >Отчеты и впечатления</a></li>
+  <li><a href="/art-blog.html" >Авторский Блог</a></li>
+  </ul>
+  </td>  
+  </tr>
+  </table>
+  
+  <table height="100%" align="center" border=0px;><tr><td align=left valign=top>
+<ul>
+  <li><a href="/albums.html" ><b>Музыка</b></a></li>
+  <li><a href="/artist.html" >Музыканты</a></li>
+  <li><a href="/work.html" >Деятельность</a></li>
+  </ul>
+  </td>
+  <td align=left valign=top>
+<ul>
+  <li><a href="/photos.html" ><b>Фотографии</b></a></li>
+  <li><a href="/video.html" >Видеозаписи</a></li>
+  </ul>
+  </td>
+    <td align=left valign=top>
+<ul>
+  <li><a href="/контакты.html" ><b>Контакты</b></a></li>
+  </ul>
+  </td>
+  </tr>
+  </table> 
+      <hr>
+<table height="120" align="center"><tr><td><span class="copy">Руда Нави / Ruda Navy 
+2008-2018 &copy;</span></td><td><img src="/./images/PsyRec.jpg" hspace=10></td><td><span class="copy">Design by <b>Yuriy Vetrov &copy;</b> 
+Background by <b>Aksiniya Polyarnaya &copy;</b></span></td></tr></table>
+       <!-- counter.1gb.ru -->
+<script language="javascript" type="text/javascript">
+cgb_js="1.0"; cgb_r=""+Math.random()+"&r="+
+escape(document.referrer)+"&pg="+
+escape(window.location.href);
+document.cookie="rqbct=1; path=/"; cgb_r+="&c="+
+(document.cookie?"Y":"N");
+</script><script language="javascript1.1" type="text/javascript">
+cgb_js="1.1";cgb_r+="&j="+
+(navigator.javaEnabled()?"Y":"N")</script>
+<script language="javascript1.2" type="text/javascript">
+cgb_js="1.2"; cgb_r+="&wh="+screen.width+
+'x'+screen.height+"&px="+
+(((navigator.appName.substring(0,3)=="Mic"))?
+screen.colorDepth:screen.pixelDepth)</script>
+<script language="javascript1.3" type="text/javascript">
+cgb_js="1.3"</script>
+<script language="javascript" 
+type="text/javascript">cgb_r+="&js="+cgb_js; 
+document.write("<a href='http://www.1gb.ru?cnt=99971'>"+
+"<img src='http://counter.1gb.ru/cnt.aspx?"+
+"u=99971&"+cgb_r+
+"&' border=0 width=88 height=31 "+
+"alt='1Gb.ru counter'><\/a>")</script>
+<noscript><a href='http://www.1gb.ru?cnt=99971'>
+<img src="http://counter.1gb.ru/cnt.aspx?u=99971" 
+border=0 width="88" height="31" alt="1Gb.ru counter"></a>
+</noscript>
+<!-- /counter.1gb.ru -->   
+</div>
+</div>
+</div> 
+</div> 
+</body>
+</html>
 

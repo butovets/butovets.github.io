@@ -94,76 +94,66 @@
         </div>
     </div>
     <div id="content">
-        <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+        <center><a href="http://www.youtube.com/user/navaja500"><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" 
+
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
 <html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>Простая замена картинок с помощью JQuery</title>
- 
-<style type="text/css">
-div#rotator {position:relative; height:150px; margin-left: 15px;}
-div#rotator ul li {float:left; position:absolute; list-style: none;}
-div#rotator ul li.show {z-index:500;}
-</style>
- 
-<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
- 
-<!-- Автор Dylan Wagstaff, http://www.alohatechsupport.net -->
-<script type="text/javascript">
- 
-function theRotator() {
-	// Устанавливаем прозрачность всех картинок в 0
-	$('div#rotator ul li').css({opacity: 0.0});
- 
-	// Берем первую картинку и показываем ее (по пути включаем полную видимость)
-	$('div#rotator ul li:first').css({opacity: 1.0});
- 
-	// Вызываем функцию rotate для запуска слайдшоу, 5000 = смена картинок происходит раз в 5 секунд
-	setInterval('rotate()',5000);
-}
- 
-function rotate() {	
-	// Берем первую картинку
-	var current = ($('div#rotator ul li.show')?  $('div#rotator ul li.show') : $('div#rotator ul li:first'));
- 
-	// Берем следующую картинку, когда дойдем до последней начинаем с начала
-	var next = ((current.next().length) ? ((current.next().hasClass('show')) ? $('div#rotator ul li:first') :current.next()) : $('div#rotator ul li:first'));	
- 
-	// Расскомментируйте, чтобы показвать картинки в случайном порядке
-	// var sibs = current.siblings();
-	// var rndNum = Math.floor(Math.random() * sibs.length );
-	// var next = $( sibs[ rndNum ] );
- 
-	// Подключаем эффект растворения/затухания для показа картинок, css-класс show имеет больший z-index
-	next.css({opacity: 0.0})
-	.addClass('show')
-	.animate({opacity: 1.0}, 1000);
- 
-	// Прячем текущую картинку
-	current.animate({opacity: 0.0}, 1000)
-	.removeClass('show');
-};
- 
-$(document).ready(function() {		
-	// Запускаем слайдшоу
-	theRotator();
-});
- 
-</script>
- 
-</head>
-<body>
- 
-<div id="rotator">
-  <ul>
-    <li class="show"><a href="http://google.ru/"><img src="images/image-1.jpg" width="500" height="313"  alt="pic1" /></a></li>
-    <li><a href="http://yandex.ru/"><img src="images/image-2.jpg" width="500" height="313"  alt="pic2" /></a></li>
-    <li><a href="http://nigma.ru/"><img src="images/image-3.jpg" width="500" height="313"  alt="pic3" /></a></li>
-  </ul>
-</div>
- 
-</body>
+
+        <head>
+
+                
+
+                <title>XXJJ и группа Навайя</title>
+
+                <script type="text/javascript">
+
+                        var chet = 1;
+
+                        window.onload = function () { setTimeout(frout, 0000); }
+
+                        function frout() {
+
+                        chet++;
+
+                        if (chet>3) {chet=0;}
+
+                                switch(chet) {
+
+                                case 1:
+
+                                        document.getElementById('img').src = "http://Xxjj-navaja.narod.ru/YouTube1.jpg";
+
+                                        break;
+
+                                case 2:
+
+                                        document.getElementById('img').src = "http://Xxjj-navaja.narod.ru/YouTube2.jpg";
+
+                                        
+
+                                        break;
+
+                                }
+
+                        setTimeout(frout, 1000);
+
+                        }
+
+                </script> 
+
+        </head>
+
+        <body>
+
+                <p><img src="http://im3-tub.yandex.net/i?id=53419835-01" onclick="frout();" id="img" alt="" /></p>
+
+        
+
+
 </html>
+
+</a></center>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>

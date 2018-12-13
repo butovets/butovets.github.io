@@ -178,25 +178,55 @@
 		
 		
 		
-	<a href="#win1" rel="nofollow">Ссылка вызова №1</a>
-<div class="popup animated" id="win1">
-  Тут содержимое окна №1
-  <a rel="nofollow" class="close" href="#close"></a>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset=utf-8 />
+<title>JavaScript select</title>
+</head>
+<body>
+
+<select name="supername" id="supername" onchange="foo()">
+<option value="0">выбирите действие</option>
+<option value="okno1">всплывающие окно с информацией 1</option>
+<option value="okno2">всплывающие окно с информацией 2</option>
+<option value="3">просто выбираем 3й пункт</option>
+<option value="okno3">всплывающие окно с информацией 3</option>
+</select>
+
+<div id="okno1" style="display: none">
+  <p>Okno1</p>
 </div>
 
-
-<a href="#win2" rel="nofollow">Ссылка вызова №2</a>
-<div class="popup animated" id="win2">
- Это особенно справедливо в игровых тестах (как сообщает Anandtech's Bench), где 7700K и Core i7-4790K были достаточно хорошо сопоставлены. Игры, в общем, не очень сильно реагируют на изменения частоты.
-  <a rel="nofollow" class="close" href="#close"></a>
+<div id="okno2" style="display: none">
+  <p>Okno2</p>
 </div>
 
-<a href="#win3" rel="nofollow">Ссылка вызова №3</a>
-<div class="popup animated" id="win3">
-  Тут содержимое окна №3
-  <a rel="nofollow" class="close" href="#close"></a>
-</div>	
-		
+<div id="okno3" style="display: none">
+  <p>Okno3</p>
+</div>
+
+</body>
+</html>
+
+<script>
+function foo() {
+
+var newWin = open('/', 'example', 'width=600,height=400');
+var selected = document.getElementById('supername');
+content = document.getElementById(selected.value).innerHTML;
+
+newWin.focus();
+newWin.onload = function() {
+var div = newWin.document.createElement('div');
+div.innerHTML = content;
+div.style.fontSize = '30px';
+
+var body = newWin.document.body;
+body.insertBefore(div, body.firstChild);
+}; 
+}
+</script>
 		
 		
 		
